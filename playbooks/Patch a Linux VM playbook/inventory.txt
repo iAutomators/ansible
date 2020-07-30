@@ -1,0 +1,4 @@
+#enter your hostnames of VM 
+VM1
+VM2
+VM3
