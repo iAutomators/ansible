@@ -7,7 +7,7 @@
       role: display vm info
     - name: patch the vm
       role: patch vm
-	
+
 - name: play to see updates
   hosts: all
   roles:
