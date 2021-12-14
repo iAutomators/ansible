@@ -3,13 +3,13 @@
   hosts: all
   serial: "{{serial}}"
   roles:
-	- name: Display Current VM Info
-	  role: display vm info
-	- name: patch the vm
-	  role: patch vm
+    - name: Display Current VM Info
+      role: display vm info
+    - name: patch the vm
+      role: patch vm
 	
 - name: play to see updates
   hosts: all
   roles:
-	-name: display update info
-	 role: vm info
+     -name: display update info
+      role: vm info
